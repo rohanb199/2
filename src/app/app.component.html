@@ -1,0 +1,22 @@
+<nav class="navbar navbar-dark py-0 bg-primary navbar-expand py-md-0">
+
+  <div class="navbar-collapse collapse">
+    <ul class="navbar-nav">
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" class="nav-item py-0">
+	<a class="nav-link" [routerLink]="['/']">Home</a>
+      </li>
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" class="nav-item py-0">
+	<a class="nav-link" [routerLink]="['/login']">Login</a>
+      </li>
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" class="nav-item py-0">
+	<a class="nav-link" [routerLink]="['/account']">Account</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  
+  <router-outlet></router-outlet>
+
+</div>

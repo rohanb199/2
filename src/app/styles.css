@@ -1,0 +1,28 @@
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.container {
+    max-width: 450px;
+    margin-top: 20px;
+}
+
+
+
+.users li {
+ list-style-type: none;
+}
+
+.users {
+    margin-top: 20px;
+    display: table;
+    margin: 25px auto;
+}
